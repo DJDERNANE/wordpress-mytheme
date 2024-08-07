@@ -10,8 +10,14 @@ get_header();
 //bloginfo('name');
 
 //get_search_form();
+?>
 
-echo "Hello world";
+<h1 class='text-primary'>
+    hello world
+</h1>
+<button class='btn-success border-0'>
+    this is bootstrap btn
+</button>
 
-
+<?php
 get_footer();
